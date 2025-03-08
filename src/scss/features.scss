@@ -1,0 +1,39 @@
+.features {
+    padding: 116px 0;
+    background-color: white;
+}
+.features_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 89px;
+    grid-row-gap: 31px;
+}
+.features_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features_card_img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 29px;
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+.features_card_title {
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 72px;
+}
+.features_card_desc {
+    p {
+        text-align: center;
+        color: #6C7279;
+    }
+}
