@@ -33,7 +33,6 @@
 }
 .features_card_desc {
     p {
-        text-align: center;
-        color: #6C7279;
+        @include card_text;
     }
 }
