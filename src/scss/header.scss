@@ -89,4 +89,13 @@
     font-size: 24px;
     text-align: center;
     text-transform: uppercase;
+    transition: 0.5s;
+    
+}
+.header_button:hover{
+    background-color: #E71414;
+    transition: 0.5s;
+}
+.header_button:active {
+    box-shadow: 0 0 30px  rgba($color: $_button_mask_color, $alpha: 0.8);
 }
