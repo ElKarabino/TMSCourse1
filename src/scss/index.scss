@@ -17,6 +17,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 a,button {
     cursor: pointer;
@@ -26,9 +27,16 @@ a,button {
     padding: 0 15px;
     margin: 0 auto;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 860px) {
     .container {
         max-width: 1024px;
         padding: 0 20px;
     }
   }
+
+@media (max-width: 859px) and (min-width: 320px) {
+    .container {
+        max-width: 859px;
+        padding: 0 20px;
+    }
+}
