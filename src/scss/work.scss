@@ -10,7 +10,6 @@
     position: relative;
     border: 2px solid white;
     border-right: 2px solid white;
-    
 }
 .work_card_img {
     width: 100%;
@@ -34,6 +33,9 @@
 }
 .work_card:hover .work_card_hover {
     display: flex;
+}
+.work_card:active .work_card_hover {
+    background-color: rgba($color: #B90C0C, $alpha: 0.8);
 }
 .work_card_title {
     font-size: 24px;

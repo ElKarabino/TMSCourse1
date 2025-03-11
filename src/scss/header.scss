@@ -32,7 +32,7 @@
     display: block;
     position: absolute;
     left: 0;
-    top: calc(100% + 36px);
+    top: calc(100% + 2px);
 }
 .header_logo p {
     color: $_header_font_color;
@@ -44,7 +44,12 @@
     margin-left: 15px;
 }
 .header_nav_item {
-    margin-right: 45px;
+    margin-right: 15px;
+    padding-bottom: 34px;
+    border-bottom: 2px solid transparent;
+    width: 134px;
+    display: flex;
+    justify-content: center;
 }
 .header_nav_item:last-child {
     margin-right: 15px;
@@ -53,6 +58,10 @@
     color: $_header_font_color;
     font-family: Raleway;
 }
+.header_nav_item:hover  {
+    border-bottom: 2px solid #BABBC5;
+}
+     
 .header_banner_wrapper {
     margin-top: 129px;
     display: flex;
