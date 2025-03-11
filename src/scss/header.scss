@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 36px 0 128px 0;
+    background-position: top right;
     position: relative;
 }
 .header::before {
@@ -44,10 +45,10 @@
     margin-left: 15px;
 }
 .header_nav_item {
-    margin-right: 15px;
+    margin-right: 5px;
     padding-bottom: 34px;
     border-bottom: 2px solid transparent;
-    width: 134px;
+    max-width: 134px;
     display: flex;
     justify-content: center;
 }
@@ -57,6 +58,9 @@
 .header_nav_link {
     color: $_header_font_color;
     font-family: Raleway;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
 }
 .header_nav_item:hover  {
     border-bottom: 2px solid #BABBC5;
@@ -107,4 +111,16 @@
 }
 .header_button:active {
     box-shadow: 0 0 30px  rgba($color: $_button_mask_color, $alpha: 0.8);
+}
+
+@media (max-width: 1024px) {
+    .header {
+        background-position: top;
+    }
+    .header_title {
+        font-size: 48px;
+    }
+    .header_nav_item {
+        max-width: 119px;
+    }
 }

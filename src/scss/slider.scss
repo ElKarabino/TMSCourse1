@@ -54,3 +54,15 @@
 .active_control_button {
     background: #7E5D6F;
 }
+
+@media (max-width: 1024px) {
+    .slider_text {
+        padding: 0 82px 0 100px;
+    }
+    .slider_quote {
+        p {
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+}

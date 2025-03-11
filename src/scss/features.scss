@@ -36,3 +36,10 @@
         @include card_text;
     }
 }
+
+@media (max-width: 1024px) {
+    .features_wrapper {
+        grid-column-gap: 20px;
+        grid-row-gap: 50px;
+    }
+}

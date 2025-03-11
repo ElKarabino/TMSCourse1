@@ -4,6 +4,7 @@
 .work_wrapper {
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 0;
 }
 .work_card {
@@ -52,5 +53,12 @@
         font-weight: 400;
         font-family: Raleway;
         color: white;
+    }
+}
+
+@media (max-width: 1024px) {
+    .work_card_img {
+        max-width: 257px;
+        height: 230px;
     }
 }

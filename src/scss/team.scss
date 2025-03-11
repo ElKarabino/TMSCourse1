@@ -8,11 +8,15 @@
 .team_card {
     display: flex;
     flex-direction: column;
+    margin-right: 25px;
+}
+.team_card:last-child {
+    margin-right: 0;
 }
 .team_card_img {
     margin-bottom: 30px;
-    width: 270px;
-    height: 270px;
+    max-width: 270px;
+    max-height: 270px;
     img {
         width: 100%;
         height: 100%;
@@ -77,3 +81,10 @@
     color: #0e76a8;
     transition: 0.5s;
 }
+
+@media (max-width: 1024px) {
+    .team_card_img {
+        max-width: 227px;
+        max-height: 227px;
+    }
+  }
