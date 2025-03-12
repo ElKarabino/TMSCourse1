@@ -16,6 +16,17 @@
         }
     }
 }
+@media (max-width: 1024px) and (min-width: 860px) {
+    .footer {
+        padding: 14px 0;
+    }
+    .footer_wrapper {
+        p {
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+}
 
 @media (max-width: 859px) and (min-width: 320px) {
     .footer {

@@ -67,6 +67,14 @@
     .work_card {
         height: auto;
     }
+    .work_card_title {
+        font-size: 18px;
+    }
+    .work_card_for {
+        p { 
+            font-size: 14px;
+        }
+    } 
 }
 @media (max-width: 859px) and (min-width: 320px) {
     .work_wrapper {
@@ -78,4 +86,12 @@
         width: auto;
         height: auto;
     }
+    .work_card_title {
+        font-size: 18px;
+    }
+    .work_card_for {
+        p { 
+            font-size: 14px;
+        }
+    } 
 }
