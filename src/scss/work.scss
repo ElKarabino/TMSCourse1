@@ -11,6 +11,9 @@
     position: relative;
     border: 2px solid white;
     border-right: 2px solid white;
+    height: 50vh;
+    width: 25vw;
+    cursor: pointer;
 }
 .work_card_img {
     width: 100%;
@@ -61,11 +64,18 @@
         max-width: 257px;
         height: 230px;
     }
+    .work_card {
+        height: auto;
+    }
 }
 @media (max-width: 859px) and (min-width: 320px) {
     .work_wrapper {
         grid-template-columns:1fr 1fr ;
         grid-template-rows: 1fr 1fr;
         gap: 0;
+    }
+    .work_card {
+        width: auto;
+        height: auto;
     }
 }
